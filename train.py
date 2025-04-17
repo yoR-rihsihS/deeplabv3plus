@@ -301,5 +301,5 @@ if __name__=="__main__":
         'momentum': 0.9,
         'eta_min': 0.0001,
     }
-    wandb.login(key="e23cc32cb0154ec70c640f78be671ff13b85103d")
+    wandb.login(key="xxxxx") # This is removed intentionally
     main(config)
