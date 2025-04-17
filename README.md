@@ -9,3 +9,5 @@ are in the form {file_type}\_{epoch}\_{index}.
 Model's performance on Val set of CityScapes :
 
 ![deeplabv3plus model's perfomance metrics on CityScapes val set](./output20.png)
+
+Comment : I have uploaded the model's predictions on test set to the evaluation server of CityScapes, and will upload the results here once I get them.
