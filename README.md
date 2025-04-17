@@ -7,7 +7,7 @@ Model's performance on Val set of CityScapes :
 
 ![deeplabv3plus model's perfomance metrics on CityScapes val set](./output20.png)
 
-Comment : I have uploaded the model's predictions on test set to the evaluation server of CityScapes, and will upload the results here once I get the public share link. For now you can view [anonymous results](https://www.cityscapes-dataset.com/anonymous-results/?id=0645d64f200dc388058d41efad92e8a9ac9fb3d4bf7c5db8b506d3b502db2de8)
+Comment : I have uploaded the model's predictions on test set to the evaluation server of CityScapes, and will upload the results here once I get the public share link. For now you can view [anonymous results](https://www.cityscapes-dataset.com/anonymous-results/?id=0645d64f200dc388058d41efad92e8a9ac9fb3d4bf7c5db8b506d3b502db2de8).
 
 ### Steps to reproduce the above results :
 1. Download "gtFine_trainvaltest.zip" and "leftImg8bit_trainvaltest.zip" from the [official website](https://www.cityscapes-dataset.com/downloads/) and extract them in "./data"
