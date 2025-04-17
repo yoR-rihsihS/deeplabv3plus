@@ -16,8 +16,7 @@ Comment : I have uploaded the model's predictions on test set to the evaluation 
   1. Add your own WandB key for login, I have removed mine for obvious reasons.
   2. If you don't have access to multi GPU system, set "multi_gpu" False in the config dict.
   3. You need to set appropriate "batch_size" in the config dict depending on your hardware setup.
-  4. You can increase "epochs" in the config dict to potentially get better results.
-4. Run train.py, it will train the model on train set and evaluate the model on val set after each epoch. We are computing the metrics like -
+4. Run train.py, it will train the model on train set and evaluate the model on val set after each epoch. We are computing and logging the metrics like -
   1. IoU - train_iou_per_class, val_iou_per_class, mean_train_iou, mean_val_iou
   2. Dice Coefficient - train_dice_per_class, val_dice_per_class, mean_train_dice, mean_val_dice
   3. Pixel-wise Accuracy - train_px_acc_per_class, val_px_acc_per_class, mean_train_px_acc, mean_val_px_acc
