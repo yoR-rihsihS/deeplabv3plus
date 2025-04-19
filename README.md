@@ -56,12 +56,14 @@ This is my submision for the VJT Assignment where I have generated the training 
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td><img src="./saved/output20.png" width="500"/><br>Model Performance on CityScapes Train-Validation Set</td>
+    <td><img src="./saved/test set eval.png" width="300"/><br>Model Evaluation on CityScapes Test Set</td>
+  </tr>
+</table>
 
-Model's performance on Val set of CityScapes :
-
-![deeplabv3plus model's perfomance metrics on CityScapes val set](./saved/output20.png width="200)
-
-Comment : I have uploaded the model's predictions on test set to the evaluation server of CityScapes, and will upload the results here once I get the public share link. For now you can view [anonymous results](https://www.cityscapes-dataset.com/anonymous-results/?id=0645d64f200dc388058d41efad92e8a9ac9fb3d4bf7c5db8b506d3b502db2de8).
+Comment : Model's performance metrics on test set computed by the official evaluation server of CityScapes can be viewed from [here](https://www.cityscapes-dataset.com/anonymous-results/?id=0645d64f200dc388058d41efad92e8a9ac9fb3d4bf7c5db8b506d3b502db2de8)
 
 ## Steps to Train the Model :
 4.  We are computing and logging the metrics like -
